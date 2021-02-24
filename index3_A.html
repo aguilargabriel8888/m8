@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Video.js + hls.js</title>
+    <title>Mexican Television</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet"><!-- https://getbootstrap.com -->
     <link href="https://vjs.zencdn.net/5.19.2/video-js.css" rel="stylesheet"><!-- https://videojs.com -->
     <style type="text/css">
@@ -13,8 +13,7 @@
     </style>
   </head>
   <body class="bg-light">
-
- <div class="container">
+    <div class="container">
         <div class="my-5 embed-responsive embed-responsive-16by9">
             <video id="video" class="embed-responsive-item video-js vjs-default-skin" width="640" height="360" autoplay controls></video>
         </div>
@@ -51,6 +50,11 @@
 <button id="channel_Boome">Boomerang</button>
 <button id="channel_club">Cine_Club</button>
 <button id="channel_cachi">Cachipum_TV</button>
+<button id="channel_FMM">FMTV_Mundo</button>
+<button id="channel_FMM2">FMTV_Movies2</button>
+<button id="channel_Dw">DW_Español</button>
+<button id="channel_WOWTV">WOW_TV</button>
+<button id="channel_Locomotion">Locomotion</button>
 
         
         <input type="text" placeholder="paste your link here" id="myInput">
@@ -115,7 +119,7 @@
                 });
 
 		$("#channel_22_2").on('click', function () {
-                  var new_url_22_2 = 'https://5fc584f3f19c9.streamlock.net/canal222/videocanal222/playlist.m3u8;
+                  var new_url_22_2 = 'https://5fc584f3f19c9.streamlock.net/canal222/videocanal222/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_22_2});
                 });
 
@@ -249,6 +253,31 @@
 		$("#channel_cachi").on('click', function () {
                   var new_url_cach = 'https://tls.cdnz.cl/cachipuntv/live/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_cach});
+                });
+
+		$("#channel_FMM").on('click', function () {
+                  var new_url_Fmm = 'https://cloud2.streaminglivehd.com:1936/8070/8070/playlist.m3u8';
+                    myPlayer.src({type: 'application/x-mpegURL', src: new_url_Fmm});
+                });
+
+		$("#channel_FMM2").on('click', function () {
+                  var new_url_Fmm2 = 'https://stmv.panel.mivideo.pro/fmtvmovies2/fmtvmovies2/playlist.m3u8';
+                    myPlayer.src({type: 'application/x-mpegURL', src: new_url_Fmm2});
+                });
+
+		$("#channel_Dw").on('click', function () {
+                  var new_url_dw = 'https://dwstream3-lh.akamaihd.net/i/dwstream3_live@124409/master.m3u8';
+                    myPlayer.src({type: 'application/x-mpegURL', src: new_url_dw});
+                });
+
+		$("#channel_WOWTV").on('click', function () {
+                  var new_url_wow = 'https://cdn.elsalvadordigital.com:1936/wowtv/smil:wowtv.smil/playlist.m3u8';
+                    myPlayer.src({type: 'application/x-mpegURL', src: new_url_wow});
+                });
+
+		$("#channel_Locomotion").on('click', function () {
+                  var new_url_motio = 'http://locomotiontv.com/envivo/loco_ch/stream.m3u8';
+                    myPlayer.src({type: 'application/x-mpegURL', src: new_url_motio});
                 });
 
 
