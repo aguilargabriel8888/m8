@@ -52,9 +52,12 @@
 <button id="channel_cachi">Cachipum_TV</button>
 <button id="channel_FMM">FMTV_Mundo</button>
 <button id="channel_FMM2">FMTV_Movies2</button>
+<button id="channel_FMM3">FMTV_Movies3</button>
+<button id="channel_TVmas">TV_mas_Chile</button>
 <button id="channel_Dw">DW_Español</button>
 <button id="channel_WOWTV">WOW_TV</button>
 <button id="channel_Locomotion">Locomotion</button>
+<button id="channel_ac_pluto">accion_plutotv</button>
 
         
         <input type="text" placeholder="paste your link here" id="myInput">
@@ -265,6 +268,17 @@
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_Fmm2});
                 });
 
+		$("#channel_FMM3").on('click', function () {
+                  var new_url_Fmm3 = 'http://rtmp02.portalexpress.es/fmtv3/fmtv3/playlist.m3u8';
+                    myPlayer.src({type: 'application/x-mpegURL', src: new_url_Fmm3});
+                });
+
+		$("#channel_TVmas").on('click', function () {
+                  var new_url_tvmas = 'https://593b04c4c5670.streamlock.net/8008/8008/master.m3u8';
+                    myPlayer.src({type: 'application/x-mpegURL', src: new_url_tvmas});
+                });
+
+
 		$("#channel_Dw").on('click', function () {
                   var new_url_dw = 'https://dwstream3-lh.akamaihd.net/i/dwstream3_live@124409/master.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_dw});
@@ -279,7 +293,10 @@
                   var new_url_motio = 'http://locomotiontv.com/envivo/loco_ch/stream.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_motio});
                 });
-
+		$("#channel_ac_pluto").on('click', function () {
+                  var new_url_ac_pluto = 'https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?deviceId=cfe94b00-2178-4be3-9807-ea6b44f14a09&deviceVersion=80.0.3987.106&appVersion=5.6.0-05e6d11bfce7210bc262d7e9f2a96fc738b8ad86&deviceType=web&deviceMake=Chrome&sid=b21723ea-fade-4f00-b391-565f0326fe9e&deviceDNT=0&deviceModel=Chrome';
+                    myPlayer.src({type: 'application/x-mpegURL', src: new_url_ac_pluto});
+                });
 
             });
 
