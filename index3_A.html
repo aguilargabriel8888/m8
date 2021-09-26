@@ -47,12 +47,12 @@
 <button id="channel_RCG_3">RCG_3_Saltillo</button>
 <button id="channel_RTQ">RTQ_Queretaro</button>
 <button id="channel_Rec">Rec_Tv</button>
-<button id="channel_Boome">Boomerang</button>
+<button id="channel_Boome">Canal_12</button>
 <button id="channel_club">Cine_Club_usa</button>
-<button id="channel_cachi">Cachipum_TV_usa</button>
+<button id="channel_cachi">Bellavision_TV_usa</button>
 <button id="channel_FMM">FMTV_Mundo_usa</button>
-<button id="channel_FMM2">FMTV_Movies2_usa</button>
-<button id="channel_FMM3">FMTV_Movies3_usa</button>
+<button id="channel_5">Channel_5_usa</button>
+<button id="channel_FMM3">TeleCaribe_usa</button>
 <button id="channel_ac">AC_Vision_usa</button>
 <button id="channel_TVmas">TV_mas_Chile_usa</button>
 <button id="channel_Dw">DW_Español_usa</button>
@@ -103,7 +103,7 @@
             videojs('video').ready(function () {
                 var myPlayer = this;
                 myPlayer.qualityPickerPlugin();
-                myPlayer.src({type: 'application/x-mpegURL', src: 'https://dai.google.com/linear/hls/event/YHoOj51dSKCvBQOBG2OvLQ/master.m3u8'});
+                myPlayer.src({type: 'application/x-mpegURL', src: 'https://dai.google.com/linear/hls/event/8FUmvMX3ShuQTgE3tEqxNg/master.m3u8'});
 
                 $("#change").on('click', function () {
                   var new_url = $("#myInput").val();
@@ -111,7 +111,7 @@
                 });
 
 		$("#channel_1").on('click', function () {
-                  var new_url_1 = 'https://dai.google.com/linear/hls/event/asXufUKSSKisiLSMHR2BXA/master.m3u8';
+                  var new_url_1 = 'https://dai.google.com/linear/hls/event/8FUmvMX3ShuQTgE3tEqxNg/master.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_1});
                 });
 
@@ -141,32 +141,32 @@
                 });
 
 		$("#channel_mich").on('click', function () {
-                  var new_url_mich = 'https://6011c5681d877.streamlock.net:1936/enlinea/enlinea/master.m3u8';
+                  var new_url_mich = 'https://60ed5b6d0df78.streamlock.net:1936/enlinea/enlinea/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_mich});
                 });
 
 		$("#channel_claro").on('click', function () {
-                  var new_url_claro = 'https://d21r053hxdt5v1.cloudfront.net/live/cs01/live.isml/playlsit.m3u8';
+                  var new_url_claro = 'https://dai.google.com/linear/hls/event/MErimHzcQJyFY4sABtO2Lg/master.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_claro});
                 });
 
 		$("#channel_unam").on('click', function () {
-                  var new_url_unam = 'https://5fc584f3f19c9.streamlock.net/tvunam/videotvunam/playlist.m3u8';
+                  var new_url_unam = 'https://5ca3e84a76d30.streamlock.net/tvunam/videotvunam/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_unam});
                 });
 
 		$("#channel_4").on('click', function () {
-                  var new_url_c_4 = 'https://5f1af61612fb5.streamlock.net/tv4/videotv4/playlist.m3u8';
+                  var new_url_c_4 = 'https://5f1af61612fb5.streamlock.net/tv4/videotv4_360p/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_c_4});
                 });
 
 		$("#channel_4_2").on('click', function () {
-                  var new_url_c_4_2 = 'https://5f2c1b0d880e5.streamlock.net/tv42/videotv42/playlist.m3u8';
+                  var new_url_c_4_2 = 'https://5f2c1b0d880e5.streamlock.net/tv42/videotv42_360p/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_c_4_2});
                 });
 
 		$("#channel_4_3").on('click', function () {
-                  var new_url_c_4_3 = 'https://5f1af61612fb5.streamlock.net/tv43/videotv43/playlist.m3u8';
+                  var new_url_c_4_3 = 'https://5f1af61612fb5.streamlock.net/tv43/videotv43_360p/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_c_4_3});
                 });
 
@@ -176,7 +176,7 @@
                 });
 
 		$("#channel_21").on('click', function () {
-                  var new_url_c_21 = 'https://6011c5681d877.streamlock.net:1936/canalcatorce/canalcatorce/playlist.m3u8';
+                  var new_url_c_21 = 'https://video.cdmx.gob.mx/livestream/stream.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_c_21});
                 });
 
@@ -233,17 +233,17 @@
 
 
 		$("#channel_RCG").on('click', function () {
-                  var new_url_RCG = 'http://wowzacontrol.com:1935/stream34/stream34/playlist.m3u8';
+                  var new_url_RCG = 'https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_RCG});
                 });
 
 		$("#channel_RCG_2").on('click', function () {
-                  var new_url_RCG2 = 'http://wowzacontrol.com:1936/stream23/stream23/playlist.m3u8';
+                  var new_url_RCG2 = 'https://5caf24a595d94.streamlock.net:1937/stream23/stream23/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_RCG2});
                 });
 
 		$("#channel_RCG_3").on('click', function () {
-                  var new_url_RCG3 = 'http://wowzacontrol.com:1936/stream56/stream56/playlist.m3u8';
+                  var new_url_RCG3 = 'https://5caf24a595d94.streamlock.net:1937/stream56/stream56/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_RCG3});
                 });
 
@@ -253,37 +253,37 @@
                 });
 
 		$("#channel_Rec").on('click', function () {
-                  var new_url_Rec = 'https://master.tucableip.com/reconline/live/video.m3u8';
+                  var new_url_Rec = 'https://video.misistemareseller.com/Jonnytv/Jonnytv/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_Rec});
                 });
 
 		$("#channel_Boome").on('click', function () {
-                  var new_url_Boom = 'http://8.9.4.128:8080/hls/boomerangtv.m3u8';
+                  var new_url_Boom = 'https://cdn4.hostlagarto.com:8081/static/telecanal12/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_Boom});
                 });
 
 		$("#channel_club").on('click', function () {
-                  var new_url_club = 'https://Stmv.panel.mivideo.pro/cineclubtv/cineclubtv/playlist.m3u8';
+                  var new_url_club = 'https://srv3.zcast.com.br/juancarlos9451/juancarlos9451/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_club});
                 });
 
 		$("#channel_cachi").on('click', function () {
-                  var new_url_cach = 'https://tls.cdnz.cl/cachipuntv/live/playlist.m3u8';
+                  var new_url_cach = 'https://cdn4.hostlagarto.com:8081/static/Bellavision8hd/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_cach});
                 });
 
 		$("#channel_FMM").on('click', function () {
-                  var new_url_Fmm = 'https://cloud2.streaminglivehd.com:1936/8070/8070/playlist.m3u8';
+                  var new_url_Fmm = 'https://cloud2.streaminglivehd.com:1936/8070/8070/playlist.m3u';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_Fmm});
                 });
 
-		$("#channel_FMM2").on('click', function () {
-                  var new_url_Fmm2 = 'https://rtmp02.portalexpress.es/fmtvmovies2/fmtvmovies2/playlist.m3u8';
+		$("#channel_5").on('click', function () {
+                  var new_url_Fmm2 = 'https://cdn87.theus6tv.tk/locals/SanDiego/xetv-tdt.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_Fmm2});
                 });
 
 		$("#channel_FMM3").on('click', function () {
-                  var new_url_Fmm3 = 'https://rtmp02.portalexpress.es/fmtv3/fmtv3/playlist.m3u8';
+                  var new_url_Fmm3 = 'https://cdn4.hostlagarto.com:8081/static/Telecaribehd/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_Fmm3});
                 });
 
@@ -325,7 +325,7 @@
                 });
 
 		$("#channel_sis").on('click', function () {
-                  var new_url_jal = 'https://5fa5de1a545ae.streamlock.net/sisjalisciense/sisjalisciense/playlist.m3u8';
+                  var new_url_jal = 'https://5fa5de1a545ae.streamlock.net:443/sisjalisciense/sisjalisciense/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_jal});
                 });
 
