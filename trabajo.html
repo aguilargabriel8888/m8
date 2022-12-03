@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Mexican Television</title>
+    <title>Trabajo Escolar</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet"><!-- https://getbootstrap.com -->
     <link href="https://vjs.zencdn.net/5.19.2/video-js.css" rel="stylesheet"><!-- https://videojs.com -->
     <style type="text/css">
@@ -13,6 +13,7 @@
     </style>
   </head>
   <body class="bg-light">
+    <h1>Trabajo Final</h1>
     <div class="container">
         <div class="my-5 embed-responsive embed-responsive-16by9">
             <video id="video" class="embed-responsive-item video-js vjs-default-skin" width="640" height="360" autoplay controls></video>
@@ -21,15 +22,15 @@
 <button id="channel_1">azteca_1</button>
 <button id="channel_7">azteca_7</button>
 <button id="channel_11">Once</button>
-<button id="channel_11_i">Once_Intern</button>
+<button id="channel_MVS">MVS</button>
 <button id="channel_22_1">Canal 22</button>
 <button id="channel_22_2">Canal 22_2</button>
-<button id="channel_mich">SMRYT_usa</button>
+<button id="channel_mich">SMRYT</button>
 <button id="channel_claro">Claro_Sport</button>
-<button id="channel_unam">TV_UNAM_usa</button>
-<button id="channel_4">Canal_4_Gto_usa</button>
-<button id="channel_4_2">Canal_4_2_Gto_usa</button>
-<button id="channel_4_3">Canal_4_3_Gto_usa</button>
+<button id="channel_unam">TV_UNAM</button>
+<button id="channel_4">Canal_4_Gto</button>
+<button id="channel_4_2">Canal_4_2_Gto</button>
+<button id="channel_4_3">Canal_4_3_Gto</button>
 <button id="channel_14">Canal_14</button>
 <button id="channel_21">Canal_21</button>
 <button id="channel_M_M_G">M_M_guadalajara</button>
@@ -46,44 +47,45 @@
 <button id="channel_RCG_2">RCG_2_Saltillo</button>
 <button id="channel_RCG_3">RCG_3_Saltillo</button>
 <button id="channel_RTQ">RTQ_Queretaro</button>
-<button id="channel_Rec">Rec_Tv</button>
+<button id="channel_Dig_15">Dig_15</button>
 <button id="channel_Boome">Canal_12</button>
-<button id="channel_club">Cine_Club_usa</button>
-<button id="channel_cachi">Bellavision_TV_usa</button>
-<button id="channel_FMM">FMTV_Mundo_usa</button>
-<button id="channel_5">Channel_5_usa</button>
-<button id="channel_FMM3">TeleCaribe_usa</button>
-<button id="channel_ac">AC_Vision_usa</button>
-<button id="channel_TVmas">TV_mas_Chile_usa</button>
-<button id="channel_Dw">DW_Español_usa</button>
-<button id="channel_WOWTV">Canal18_usa</button>
-<button id="channel_Locomotion">HM_TV_usa</button>
+<button id="channel_club">Cine_Club</button>
+<button id="channel_bell">Bellavision_TV</button>
+<button id="channel_PCtv">Punta_Cana</button>
+<button id="channel_TMd">Telemedio_D</button>
+<button id="channel_C18">Canal_18</button>
+<button id="channel_Teste">Tele_Este</button>
+<button id="channel_Dantv">Dan_TV</button>
+<button id="channel_Dw">DW_Español</button>
+<button id="channel_Valle">ValleVision</button>
+<button id="channel_HMtv">HM_TV</button>
 
-<button id="channel_orbTv">Orbit_Tv_usa</button>
-<button id="channel_adn40">adn40_usa</button>
-<button id="channel_sis">Jalisco_usa</button>
-<button id="channel_mexi">mexiquense_usa</button>
-<button id="channel_quie">quiero_tv_usa</button>
-<button id="channel_sipse">sipse_Cancun_usa</button>
-<button id="channel_TeleMar">TeleMar_usa</button>
-<button id="channel_TeleMax">TeleMax_usa</button>
-<button id="channel_culi">Tvp_Culiacan_usa</button>
-<button id="channel_mochi">Tvp_Mochis_usa</button>
-<button id="channel_maza">Tvp_Mazatlan_usa</button>
-<button id="channel_obr">Tvp_Obregon_usa</button>
+<button id="channel_orbTv">Orbit_Tv</button>
+<button id="channel_adn40">adn40</button>
+<button id="channel_sis">Jalisco</button>
+<button id="channel_mexi">mexiquense</button>
+<button id="channel_uni">unicanal</button>
+<button id="channel_sipse">sipse_Cancun</button>
+<button id="channel_TeleMar">TeleMar</button>
+<button id="channel_TeleMax">TeleMax</button>
+<button id="channel_culi">Tvp_Culiacan</button>
+<button id="channel_mochi">Tvp_Mochis</button>
+<button id="channel_maza">Tvp_Mazatlan</button>
+<button id="channel_obr">Tvp_Obregon</button>
 
 
         
-        <input type="text" placeholder="paste your link here" id="myInput">
+<!--        <input type="text" placeholder="paste your link here" id="myInput">
 <button id="change">change video</button>
 <h2>HLS .m3u8&nbsp;streams for testing</h2>
 <ul>
+  <li>https://5ca3e84a76d30.streamlock.net/tvunam/videotvunam/playlist.m3u8</li>
   <li>https://dai.google.com/linear/hls/event/YHoOj51dSKCvBQOBG2OvLQ/master.m3u8</li>
-  <li>https://dai.google.com/linear/hls/event/asXufUKSSKisiLSMHR2BXA/master.m3u8</li>
-  <li>http://live.canaloncelive.tv:1935/livepkgr/smil:nacional.smil/playlist.m3u8</li>
+  <li>https://dai.google.com/linear/hls/event/8FUmvMX3ShuQTgE3tEqxNg/master.m3u8</li>
   </ul>
     </div>
-    
+ 
+-->   
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://vjs.zencdn.net/5.19.2/video.js"></script><!-- https://videojs.com -->
@@ -103,7 +105,7 @@
             videojs('video').ready(function () {
                 var myPlayer = this;
                 myPlayer.qualityPickerPlugin();
-                myPlayer.src({type: 'application/x-mpegURL', src: 'https://dai.google.com/linear/hls/event/8FUmvMX3ShuQTgE3tEqxNg/master.m3u8'});
+                myPlayer.src({type: 'application/x-mpegURL', src: 'https://5ca3e84a76d30.streamlock.net/tvunam/videotvunam/playlist.m3u8'});
 
                 $("#change").on('click', function () {
                   var new_url = $("#myInput").val();
@@ -121,12 +123,12 @@
                 });
 
 		$("#channel_11").on('click', function () {
-                  var new_url_11 = 'http://live.canaloncelive.tv:1935/livepkgr/smil:nacional.smil/playlist.m3u8';
+                  var new_url_11 = 'https://vivo.canaloncelive.tv/alivepkgr3/ngrp:cepro_all/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_11});
                 });
 
-		$("#channel_11_i").on('click', function () {
-                  var new_url_11_i = 'http://live.canaloncelive.tv:1935/livepkgr2/smil:internacional.smil/playlist.m3u8';
+		$("#channel_MVS").on('click', function () {
+                  var new_url_11_i = 'https://dish.akamaized.net/Content/HLS_HLS_CLR/Live/channel(mvs)/variant.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_11_i});
                 });
 
@@ -171,7 +173,7 @@
                 });
 
 		$("#channel_14").on('click', function () {
-                  var new_url_c_14 = 'https://d3nljkrx6mjqra.cloudfront.net/out/v1/1b9d9efd27814b3b8dc570113ae54409/index.m3u8';
+                  var new_url_c_14 = 'https://60ed5b6d0df78.streamlock.net:1936/segundo/segundo/index.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_c_14});
                 });
 
@@ -182,7 +184,7 @@
 
 
 		$("#channel_M_M_G").on('click', function () {
-                  var new_url_Mg = 'https://mdstrm.com/live-stream-playlist/5c54d38ca392a5119bb0aa0d.m3u8';
+                  var new_url_Mg = 'https://mdstrm.com/live-stream-playlist/5c54d38ca392a5119bb0aa0d.m3u8';				  
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_Mg});
                 });
 
@@ -252,8 +254,8 @@
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_RTQ});
                 });
 
-		$("#channel_Rec").on('click', function () {
-                  var new_url_Rec = 'https://video.misistemareseller.com/Jonnytv/Jonnytv/playlist.m3u8';
+		$("#channel_Dig_15").on('click', function () {
+                  var new_url_Rec = 'http://free.fullspeed.tv/iptv-query?streaming-ip=https://livestream.com/accounts/27456795/events/8268514/player';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_Rec});
                 });
 
@@ -263,54 +265,54 @@
                 });
 
 		$("#channel_club").on('click', function () {
-                  var new_url_club = 'https://srv3.zcast.com.br/juancarlos9451/juancarlos9451/playlist.m3u8';
+                  var new_url_club = 'https://servilive.com:3176/live/cineclublive.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_club});
                 });
 
-		$("#channel_cachi").on('click', function () {
-                  var new_url_cach = 'https://cdn4.hostlagarto.com:8081/static/Bellavision8hd/playlist.m3u8';
-                    myPlayer.src({type: 'application/x-mpegURL', src: new_url_cach});
+		$("#channel_Bella").on('click', function () {
+                  var new_url_bell = 'https://cdn4.hostlagarto.com:8081/static/Bellavision8hd/playlist.m3u8';
+                    myPlayer.src({type: 'application/x-mpegURL', src: new_url_bell});
                 });
 
-		$("#channel_FMM").on('click', function () {
-                  var new_url_Fmm = 'https://cloud2.streaminglivehd.com:1936/8070/8070/playlist.m3u';
+		$("#channel_PCtv").on('click', function () {
+                  var new_url_Fmm = 'https://cdn4.hostlagarto.com:8081/static/puntacanatv/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_Fmm});
                 });
 
-		$("#channel_5").on('click', function () {
-                  var new_url_Fmm2 = 'https://cdn87.theus6tv.tk/locals/SanDiego/xetv-tdt.m3u8';
+		$("#channel_TMd").on('click', function () {
+                  var new_url_Fmm2 = 'https://cloudflare.streamgato.us:3413/live/telecaribehdlive.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_Fmm2});
                 });
 
-		$("#channel_FMM3").on('click', function () {
-                  var new_url_Fmm3 = 'https://cdn4.hostlagarto.com:8081/static/Telecaribehd/playlist.m3u8';
+		$("#channel_C18").on('click', function () {
+                  var new_url_Fmm3 = 'https://cdn4.hostlagarto.com:8081/static/canal18hd/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_Fmm3});
                 });
 
-		$("#channel_ac").on('click', function () {
-                  var new_url_ac = 'https://rtmp02.portalexpress.es/acvisionazogues/acvisionazogues/playlist.m3u8';
+		$("#channel_Teste").on('click', function () {
+                  var new_url_ac = 'https://cm.hostlagarto.com:4445/ESTV/estv.myStream/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_ac});
                 });
 
 
-		$("#channel_TVmas").on('click', function () {
-                  var new_url_tvmas = 'https://593b04c4c5670.streamlock.net/8008/8008/master.m3u8';
-                    myPlayer.src({type: 'application/x-mpegURL', src: new_url_tvmas});
+		$("#channel_Dantv").on('click', function () {
+                  var new_url_dantv = 'http://cm.hostlagarto.com:8081/Punaltv/punaltvHD.myStream/playlist.m3u8';
+                    myPlayer.src({type: 'application/x-mpegURL', src: new_url_dantv});
                 });
 
 
 		$("#channel_Dw").on('click', function () {
-                  var new_url_dw = 'https://dwstream3-lh.akamaihd.net/i/dwstream3_live@124409/master.m3u8';
+                  var new_url_dw = 'https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_dw});
                 });
 
-		$("#channel_WOWTV").on('click', function () {
-                  var new_url_wow = 'https://cdn4.hostlagarto.com:8081/static/canal18hd/playlist.m3u8';
+		$("#channel_Valle").on('click', function () {
+                  var new_url_wow = 'http://190.103.183.24:1935/Vallevision/ValleHD/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_wow});
                 });
 
-		$("#channel_Locomotion").on('click', function () {
-                  var new_url_motio = 'http://cm.hostlagarto.com:8081/Hmtv/hmtv.myStream/playlist.m3u8';
+		$("#channel_HMtv").on('click', function () {
+                  var new_url_motio = 'https://cm.hostlagarto.com:4445/Hmtv/hmtv.myStream/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_motio});
                 });
 
@@ -330,12 +332,12 @@
                 });
 
 		$("#channel_mexi").on('click', function () {
-                  var new_url_mex = 'https://5ca3e84a76d30.streamlock.net/mexiquense/videomexiquense/playlist.m3u8';
+                  var new_url_mex = 'https://5e50264bd6766.streamlock.net/mexiquense/videomexiquense/playlist.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_mex});
                 });
 
-		$("#channel_quie").on('click', function () {
-                  var new_url_qutv = 'https://quierotvlive.tk/httplive/playlist.m3u8';
+		$("#channel_uni").on('click', function () {
+                  var new_url_qutv = 'http://45.55.127.106/live/unicanal_mid.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_qutv});
                 });
 
@@ -345,12 +347,12 @@
                 });
 
 		$("#channel_TeleMar").on('click', function () {
-                  var new_url_tmar = 'https://59d39900ebfb8.streamlock.net/8410/8410/playlist.m3u8';
+                  var new_url_tmar = 'https://stream-03.sv4.dailymotion.com/sec(jgGqWSgcC1UbbwRnedTC2jXavufJUa31_79vId9DcDH94tw72B6MnFQGgPP_d0IT)/dm/3/x80bl3l/s/live-0.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_tmar});
                 });
 
 		$("#channel_TeleMax").on('click', function () {
-                  var new_url_tmax = 'http://s5.mexside.net:1935/telemax/telemax/playlist.m3u8';
+                  var new_url_tmax = 'http://s5.mexside.net:1935/telemax/telemax/.m3u8';
                     myPlayer.src({type: 'application/x-mpegURL', src: new_url_tmax});
                 });
 
